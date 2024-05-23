@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 /* eslint-disable no-unused-vars */
 
-const getCharacter = require('../src/getCharacter');
+const getCharacter = require('../src/8-getCharacter');
 
 /*
 A função getCharacter recebe uma string que representa o nome de um personagem e retorna um objeto contendo seu nome, sua classe e suas frases.

@@ -56,7 +56,7 @@ const characters = {
 };
 
 const getCharacter = (name) => {
-  if (name === undefined) {
+  if (!name) {
     return undefined;
   }
 
