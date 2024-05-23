@@ -1,5 +1,5 @@
 /*
-A função getCharacter recebe uma string que representa o nome de um personagem e retorna um objeto contendo seu nome, sua classe e suas frases.
+A função `getCharacter` recebe uma string que representa o nome de um personagem e retorna um objeto contendo seu nome, sua classe e suas frases.
 
 O retorno será de acordo com a seguinte relação:
 
@@ -19,9 +19,7 @@ O retorno será de acordo com a seguinte relação:
     phrases: ['frase1', 'frase2']
   }
 
-- OBS.: O parâmetro não é CASE SENSITIVE, ou seja, não faz diferenças entre maiúsculas e minúsculas. Portanto Arya, ArYa e ARYA têm o mesmo resultado.
-
-Escreva pelo menos seis testes para essa função garantindo que a implementação de getCharacter está correta.
+- Obs: O parâmetro não é CASE SENSITIVE, ou seja, não faz diferenças entre maiúsculas e minúsculas. Portanto Arya, ArYa e ARYA têm o mesmo resultado.
 
 Parâmetros:
   - Uma string.
@@ -56,7 +54,7 @@ const characters = {
 };
 
 const getCharacter = (name) => {
-  if (name === undefined) {
+  if (!name) {
     return undefined;
   }
 
