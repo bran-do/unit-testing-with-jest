@@ -15,7 +15,7 @@
     estudante.feedback() // Retorna: 'Eita pessoa boa!'
 */
 function feedbackFunction() {
-  return 'Eita pessoa boa!';
+  return 'Essa é uma pessoa muito bacana!';
 }
 
 const createStudent = (nome) => {
