@@ -2,6 +2,7 @@ const average = require('../src/1-average');
 
 describe('Testes da função `average`', () => {
   it('Verifica se a função `average` retorna a média entre os números do array de entrada', () => {
+    // A função pode receber tamanhos variados de arrays e, ainda assim, retorna a média correta:
     expect(average([1, 1])).toBe(1);
     expect(average([2, 4])).toBe(3);
     expect(average([10000, 20000, 30000])).toBe(20000);
