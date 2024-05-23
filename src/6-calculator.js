@@ -1,16 +1,17 @@
 /*
-  Implemente a função calculator que recebe dois números inteiros como parâmetro e retorna um objeto com as seguintes chaves:
+  A função `calculator` recebe dois números inteiros como parâmetro e retorna um objeto com as seguintes chaves:
     - sum;
     - mult;
     - div;
     - sub.
-  Para cada chave atribua como valor a operação correspondente à sua chave:
+
+  Cada uma dessas chaves corresponde a uma operação diferente:
     - sum: retorna o resultado da soma dos dois números;
     - mult: retorna o resultado da multiplicação dos dois números;
     - div: retorna o resultado da divisão dos dois números;
     - sub: retorna o resultado da subtração dos dois números.
 
-  Os resultados das divisões devem sempre ser arredondados para baixo.
+  Obs: O resultado das divisões sempre serão arredondados para baixo.
 
   Parâmetros:
   - Dois números inteiros.

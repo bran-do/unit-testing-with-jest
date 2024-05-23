@@ -6,6 +6,9 @@ describe('Testes da função `average`', () => {
     expect(average([1, 1])).toBe(1);
     expect(average([2, 4])).toBe(3);
     expect(average([10000, 20000, 30000])).toBe(20000);
+
+    // No caso de uma média com valor 'float', a função converte-o para inteiro:
+    expect(average([3, 3, 4])).toBe(3);
   });
 
   it('Verifica se a função `average` retorna `undefined` caso o array de entrada possua elementos não-numéricos', () => {

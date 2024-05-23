@@ -1,15 +1,11 @@
 /*
-  Depois de ter implementado a função calculator, desenvolva uma função que converta objetos em arrays, de chaves, valores ou ambos.
-  A sua função deve receber dois parâmetros:
-
-    * o primeiro parâmetro deve ser uma string que indica o tipo de conversão;
-    * o segundo parâmetro deve ser um objeto semelhante ao que é retornado pela função calculator que você acabou de desenvolver.
+  A função `arrayGenerator` converte objetos em arrays: de chaves, valores ou ambos.
 
   Parâmetros:
   - Uma string que indica o tipo de conversão;
-  - Um objeto no formato { sum: 3, mult: 2, div: 0, sub: -1 };
+  - Um objeto para conversão;
 
-  Comportamento:
+  Comportamento (por exemplo, com as saídas da função `calculator`):
   arrayGenerator('keys', { sum: 3, mult: 2, div: 0, sub: -1 }) // [ 'sum', 'mult', 'div', 'sub' ]
   arrayGenerator('values', { sum: 3, mult: 2, div: 0, sub: -1 }) // [ 3, 2, 0, -1 ]
   arrayGenerator('entries', { sum: 3, mult: 2, div: 0, sub: -1 }) // [ [ 'sum', 3 ], [ 'mult', 2 ], [ 'div', 0 ], [ 'sub', -1 ] ]
